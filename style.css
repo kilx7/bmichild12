@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* استخدام خطوط النظام الافتراضية */
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -205,4 +205,32 @@ body {
 canvas {
     max-width: 100%;
     margin: 0 auto;
+}
+
+/* التعديلات الجديدة للنصائح */
+.advice-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    border-right: 4px solid var(--primary);
+}
+
+.advice-item a {
+    color: var(--success);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.advice-item a:hover {
+    text-decoration: underline;
+}
+
+.advice-section h3 {
+    color: var(--primary);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary);
 }
